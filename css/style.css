@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background :navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background: #d58c1f;
+    padding: 25px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #848ec9;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.delete-all {
+    background: #9ca0d2;
+    float: right;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th {
+    padding: 10px;
+    background:rgb(9, 9, 73) ;
+}
+
+table td {
+    padding: 10px;
+}
+
+.action-row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-btn {
+    background: #4bb543;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+}
+
+.action-btn.done {
+    background: #7286ff;
+}
+
+.empty {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
